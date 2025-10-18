@@ -1,7 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://dwqi5s3gx7w55"]
+[gd_scene load_steps=7 format=3 uid="uid://dwqi5s3gx7w55"]
 
 [ext_resource type="Texture2D" uid="uid://bwhb6wevecqfd" path="res://icon.svg" id="1_eesgg"]
 [ext_resource type="Script" uid="uid://delhipd1qjhal" path="res://character_body_2d.gd" id="1_t1563"]
+[ext_resource type="Texture2D" uid="uid://nbw0xpxckhu6" path="res://canvas.png" id="3_epypp"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7gygq"]
 size = Vector2(128, 128)
@@ -90,3 +91,7 @@ offset_right = 1961.0
 offset_bottom = -211.0
 text = "my zaddy daddy"
 label_settings = SubResource("LabelSettings_0e48y")
+
+[node name="Canvas" type="Sprite2D" parent="."]
+position = Vector2(2719, -1053)
+texture = ExtResource("3_epypp")
