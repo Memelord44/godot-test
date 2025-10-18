@@ -1,13 +1,16 @@
-[gd_scene load_steps=5 format=3 uid="uid://dwqi5s3gx7w55"]
+[gd_scene load_steps=6 format=3 uid="uid://dwqi5s3gx7w55"]
 
 [ext_resource type="Texture2D" uid="uid://bwhb6wevecqfd" path="res://icon.svg" id="1_eesgg"]
-[ext_resource type="Script" path="res://character_body_2d.gd" id="1_t1563"]
+[ext_resource type="Script" uid="uid://delhipd1qjhal" path="res://character_body_2d.gd" id="1_t1563"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7gygq"]
 size = Vector2(128, 128)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ce8ap"]
 size = Vector2(127.876, 126.512)
+
+[sub_resource type="LabelSettings" id="LabelSettings_0e48y"]
+font_size = 200
 
 [node name="Node2D" type="Node2D"]
 
@@ -79,3 +82,11 @@ texture = ExtResource("1_eesgg")
 position = Vector2(1944.5, 334.5)
 scale = Vector2(32.1641, 3.35938)
 shape = SubResource("RectangleShape2D_ce8ap")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 856.0
+offset_top = -656.0
+offset_right = 1961.0
+offset_bottom = -211.0
+text = "my zaddy daddy"
+label_settings = SubResource("LabelSettings_0e48y")
